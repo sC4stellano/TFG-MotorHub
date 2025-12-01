@@ -50,6 +50,16 @@ La planificación del proyecto se ha organizado en sprints utilizando un tablero
 
 En la documentación del proyecto se incluirán capturas de este tablero y el enlace público de Trello para que pueda consultarse online la planificación detallada y el estado de las tareas en cada momento.
 
+## Diagramas del sistema
+
+Para describir el comportamiento y la estructura del sistema se han creado dos diagramas principales.
+
+- **Diagrama de casos de uso**: muestra las interacciones entre los actores Usuario y Administrador y los casos de uso más importantes, como registrarse, iniciar sesión, ver campeonatos, consultar calendarios y resultados, gestionar favoritos y, en el caso del administrador, gestionar campeonatos, carreras, pilotos, equipos y resultados. Este diagrama se ha generado a partir de una especificación en PlantUML y se ha exportado como imagen para su inclusión en la documentación. <img width="403" height="1718" alt="caso de uso tgf" src="https://github.com/user-attachments/assets/b40fc85c-5ebb-4fbc-9fe0-8bac58563559" />
+
+- **Diagrama Entidad–Relación (ER)**: representa el modelo de datos de MotorHub, con entidades como Deporte, Temporada, Circuito, Equipo, Piloto, Carrera, Resultado, Usuario y Favorito, así como sus claves primarias y claves foráneas. El ER se ha definido también mediante código PlantUML específico para diagramas de entidad–relación y se ha utilizado como base para el diseño de la base de datos MySQL. <img width="895" height="984" alt="Entidad - Relacion" src="https://github.com/user-attachments/assets/ab0985ef-0669-4ca7-bbfa-368e491bf1f3" />
+
+
+
 ## Estado actual del proyecto
 
 En este momento se encuentran en marcha las tareas del Sprint 1, centradas en la definición de la idea, la elección de tecnologías y la creación del modelo de base de datos con MySQL. En sprints posteriores se desarrollarán el backend con Spring Boot y la aplicación Android en Kotlin hasta completar una primera versión funcional de MotorHub.
